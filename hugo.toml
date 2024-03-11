@@ -9,15 +9,14 @@ hasCJKLanguage = true
 title = "kelevis"
 # 更改使用 Hugo 构建网站时使用的默认主题
 theme = "DoIt"
-####################################
-# 作者配置
+
+############ 作者配置 #########################
 [author]
 name = "kelevis"
-email = "kelevis@gmail.com"
+email = "kevin.leee1128@gmail.com"
 link = "https://kelevis.github.io"
 
-####################################
-# 菜单配置
+############# 菜单配置 ########################
 [menu]
 [[menu.main]]
 identifier = "posts"
@@ -55,8 +54,7 @@ name = "关于我"
 url = "/about/"
 title = ""
 
-####################################
-#参数配置
+############### 参数配置 ######################
 [params]
 # DoIt 主题版本
 version = "0.3.X"
@@ -64,7 +62,8 @@ version = "0.3.X"
 images = ["./favicon.ico"]
 # DoIt 新增 | 0.2.11 开启 PWA 支持
 enablePWA = false
-####################################
+
+################ 搜索配置 ####################
 # DoIt 新增 | 0.2.0 搜索配置
 [params.search]
 #enable = true
@@ -83,8 +82,7 @@ enablePWA = false
 ## DoIt 新增 | 0.2.4 是否在搜索索引中使用基于 baseURL 的绝对路径
 #absoluteURL = false
 
-####################################
-# 页面头部导航栏配置
+################# 页面头部导航栏配置 ####################
 [params.header]
 # 桌面端导航栏模式 ("fixed", "normal", "auto")
 desktopMode = "fixed"
@@ -142,12 +140,13 @@ gravatarEmail = ""
 # 将你的头像文件放置于 static 或者 assets 目录下
 # 文件路径是相对于 static 或者 assets 目录的
 avatarURL = "/images/avatar.webp"
+#avatarURL = "./pic.jpg"
 # 头像的链接指向的 URL
-avatarLinkURL = ""
+avatarLinkURL = "https://kelevis.github.io"
 # DoIt 更改 | 0.2.7 主页显示的网站标题 (支持 HTML 格式)
-title = ""
+#title = "It's kelevis Blog site"
 # 主页显示的网站副标题
-subtitle = "It's kelevis Hugo site"
+subtitle = "It's kelevis Blog site"
 # 是否为副标题显示打字机动画
 typeit = true
 # 是否显示社交账号
@@ -159,7 +158,7 @@ disclaimer = ""
 # 作者的社交信息设置
 [params.social]
 GitHub = "kelevis"
-Email = "kelevis@gmail.com"
+Email = "kevin.leee1128@gmail.com"
 RSS = true # DoIt 新增 | 0.2.0
 #Linkedin = ""
 #Twitter = "xxxx"
