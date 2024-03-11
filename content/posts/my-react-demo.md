@@ -6,5 +6,5 @@ draft = false
 
 ## React demo
 
-#####react demo: [Hello Word](http://172.23.3.25:1010/)
+react demo: [Hello Word](http://172.23.3.25:1010/)
 
